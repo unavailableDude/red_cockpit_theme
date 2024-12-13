@@ -19,7 +19,7 @@
 		"badge.background": "#616161",
 		"badge.foreground": "#f8f8f8",
 		
-		//buttons
+		//@note buttons
 		"button.background": "#700000",
 		"button.border": "#e00000",
 		"button.foreground": "#eeeeeef0",
@@ -45,7 +45,7 @@
 		"dropdown.foreground": "#cccccc",
 		"dropdown.listBackground": "#1f1f1f",
 
-		//editor
+		//@note editor
 		"editor.background": "#101010",
 		"editor.foreground": "#cccccccc",
 		"editor.findMatchBackground": "#9e6a03",
@@ -54,7 +54,7 @@
 		"editorPane.background": "#200000",
 
 		"editorGroup.border": "#ff000032",
-		"editorGroupHeader.tabsBackground": "#181818",
+		"editorGroupHeader.tabsBackground": "#0c0808",
 		"editorGroupHeader.tabsBorder": "#ff000060",
 		"editorGutter.addedBackground": "#2ea043",
 		"editorGutter.deletedBackground": "#f85149",
@@ -104,7 +104,7 @@
 
 		"editorCodeLens.foreground": "#ff0000",
 
-		//diff editor
+		//@note diff editor
 		"diffEditor.insertedTextBackground": "#00ff0080",
 		//"diffEditor.insertedTextBorder": "#ffffff60",
 		"diffEditor.removedTextBackground": "#00ff0080",
@@ -129,7 +129,7 @@
 
 		"errorForeground": "#f85149",
 		"focusBorder": "#cf0000",
-		"foreground": "#872222",
+		"foreground": "#c20000",
 		"icon.foreground": "#d60000",
 		"input.background": "#40000020",
 		"input.border": "#800000",
@@ -144,14 +144,14 @@
 		"interactive.activeCodeBorder": "#00ff00",
 		"interactive.inactiveCodeBorder": "#00ff00",
 
-		//menus
+		//@note menus
 		"menu.background": "#0f0000",
 		"menu.border": "#f00000",
 		"menu.foreground": "#cccccc",
 		"menu.selectionBackground": "#ff000040",
 		"menu.separatorBackground": "#f0000080",
 
-		// minimap colors
+		//@note minimap
 		"minimap.background": "#42000018",
 		"minimap.foregroundOpacity": "#000000fe",
 		"minimap.selectionHighlight": "#ff000080",
@@ -171,7 +171,8 @@
 		"notifications.border": "#2b2b2b",
 		"notifications.foreground": "#cccccc",
 
-		//panels, the panels are the things on the bottom (terminal/output/debug/console)
+		//@note panels,
+		//the panels are the things on the bottom (terminal/output/debug/console)
 		"panel.background": "#0a0000",
 		"panel.border": "#a00000",
 		"panelInput.border": "#f00000",
@@ -179,10 +180,15 @@
 		"panelTitle.activeForeground": "#d0d0d0",
 		"panelTitle.inactiveForeground": "#808080",
 
-		"peekViewEditor.background": "#1f1f1f",
-		"peekViewEditor.matchHighlightBackground": "#bb800966",
-		"peekViewResult.background": "#1f1f1f",
-		"peekViewResult.matchHighlightBackground": "#bb800966",
+		//@note peek view
+		"peekViewEditor.background": "#181414",
+		"peekViewEditor.matchHighlightBackground": "#483000",
+		"peekViewResult.background": "#181414",
+		"peekViewResult.matchHighlightBackground": "#480000",
+		"peekView.border": "#e00000",
+		"peekViewTitle.background": "#382020",
+		"peekViewTitleDescription.foreground": "#cccccc",
+		"peekViewTitleLabel.foreground": "#cccccc",
 
 		"pickerGroup.border": "#3c3c3c",
 		"ports.iconRunningProcessForeground": "#369432",
@@ -202,7 +208,7 @@
 		"searchEditor.findMatchBorder": "#00ff00",
 		"searchEditor.textInputBorder": "#00ff00",
 		
-		//side bar
+		//@note side bar
 		"sideBar.background": "#080000",
 		"sideBar.border": "#900000",
 		"sideBar.foreground": "#c0c0c0",
@@ -212,7 +218,7 @@
 		"sideBarTitle.foreground": "#cb0000",
 		"sideBarActivityBarTop.border": "#00ff00",
 
-		//status bar
+		//@note status bar
 		"statusBar.background": "#680000",
 		"statusBar.foreground": "#cccccc",
 		"statusBar.border": "#ff0000",
@@ -226,7 +232,7 @@
 		"statusBarItem.remoteBackground": "#ff0000",
 		"statusBarItem.remoteForeground": "#ffffff",
 		
-		//tabs
+		//@note tabs
 		"tab.activeBackground": "#780000",
 		"tab.activeBorder": "#f00000",
 		"tab.activeBorderTop": "#f0000080",
@@ -244,15 +250,18 @@
 		"tab.unfocusedActiveBorderTop": "#2b2b2b",
 		"tab.unfocusedHoverBackground": "#1f1f1f",
 		
-		//terminal tab
+		//@note terminal tab
 		"terminal.foreground": "#dd0000",
-		"terminal.selectionBackground": "#ff000060",
-		"terminal.inactiveSelectionBackground": "#ff000050",
+		"terminal.selectionBackground": "#ff000040",
+		"terminal.inactiveSelectionBackground": "#ff000038",
+		"terminalCursor.background": "#ff000080",
+		"terminalCursor.foreground": "#ff0000c0",
 		"terminal.tab.activeBorder": "#e50000",
 		"terminal.background": "#0a0808",
 		"terminal.border": "#ff000080",
 
-		//debug console tab
+
+		//@note debug console tab
 		"debugConsole.errorForeground": "#f85149",
 		"debugConsole.warningForeground": "#b89500",
 		"debugConsole.infoForeground": "#75beff",
@@ -265,7 +274,7 @@
 		"textPreformat.foreground": "#d0d0d0",
 		"textSeparator.foreground": "#21262d",
 		
-		//title bar
+		//@note title bar
 		"titleBar.activeBackground": "#120000",
 		"titleBar.activeForeground": "#ff0000d0",
 		"titleBar.border": "#600000",
@@ -280,6 +289,7 @@
         "window.activeBorder": "#9b0000",
         "window.inactiveBorder": "#780000"
 	},
+	//@note TOKENS--------
 	"tokenColors": [
 		{
 			"scope": [
@@ -313,7 +323,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#448b7d"		//@note comments
 			}
 		},
 		{
@@ -323,6 +333,7 @@
 			}
 		},
 		{
+			//@note numbers
 			"scope": [
 				"constant.numeric",
 				"variable.other.enummember",
@@ -330,7 +341,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#B5CEA8"
+				"foreground": "#ababab"
 			}
 		},
 		{
@@ -379,7 +390,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#F44747"
+				"foreground": "#00ff00"
 			}
 		},
 		{
@@ -579,6 +590,7 @@
 			}
 		},
 		{
+			//@note operators
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#D4D4D4"
@@ -645,6 +657,7 @@
 			}
 		},
 		{
+			//@note methods
 			"scope": [
 				"entity.name.function",
 				"support.function",
@@ -657,6 +670,7 @@
 			}
 		},
 		{
+			//@note class/types
 			"scope": [
 				"support.class",
 				"support.type",
@@ -723,6 +737,7 @@
 			}
 		},
 		{
+			//@note variables
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
