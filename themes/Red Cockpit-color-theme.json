@@ -6,6 +6,9 @@
 	"colors": {
 		"actionBar.toggledBackground": "#384938",
 
+		//@note activity bar
+		//it is the bar on the far left, containing icons
+		//for files, search, source control, etc.
 		"activityBar.activeBorder": "#ff0000",
 		"activityBar.background": "#0a0808",
 		"activityBar.border": "#900000",
@@ -46,22 +49,31 @@
 		"dropdown.listBackground": "#1f1f1f",
 
 		//@note editor
-		"editor.background": "#101010",
+		"editor.background": "#101212",
 		"editor.foreground": "#cccccccc",
 		"editor.findMatchBackground": "#9e6a03",
 		"editor.lineHighlightBackground": "#00ff00",
 		"editor.lineHighlightBorder": "#00ff00",
 		"editorPane.background": "#200000",
+		"editor.compositionBorder": "#0f0",
+		"editor.focusedStackFrameHighlightBackground": "#0f0",
+		"editor.foldBackground": "#20303040",
+		"editorGutter.foldingControlForeground": "#ff0000",
+		"editorGutter.commentGlyphForeground": "#00ff00",
+		"editorGutter.commentRangeForeground": "#00ff00",
+		//maybe about the lines on the left that show changes
+		"editorGutter.addedBackground": "#00ff00",
+		"editorGutter.deletedBackground": "#ff0000",
+		"editorGutter.modifiedBackground": "#0000ff",
 
-		"editorGroup.border": "#ff000032",
-		"editorGroupHeader.tabsBackground": "#0c0808",
+		//groups of editors means when opening multiple editors side by side,
+		//each editor will be in a group
+		"editorGroup.border": "#ff0000a0",
+		"editorGroupHeader.tabsBackground": "#100000",
 		"editorGroupHeader.tabsBorder": "#ff000060",
-		"editorGutter.addedBackground": "#2ea043",
-		"editorGutter.deletedBackground": "#f85149",
-		"editorGutter.modifiedBackground": "#0078d4",
 		"editorIndentGuide.activeBackground1": "#707070",
 		"editorIndentGuide.background1": "#404040",
-		"editorLineNumber.activeForeground": "#df0000",
+		"editorLineNumber.activeForeground": "#f00000",
 		"editorLineNumber.foreground": "#730000",
 		"editorLineNumber.dimmedForeground": "#be000050",
 		"editorOverviewRuler.border": "#300000",
@@ -159,11 +171,13 @@
 		"minimapSlider.background": "#f0000032",
 		"minimapSlider.hoverBackground": "#ff000032",
 		"minimapSlider.activeBackground": "#ba000040",
-		"minimapGutter.addedBackground": "#ff000040",
-		"minimapGutter.modifiedBackground": "#ff000040",
-		"minimapGutter.deletedBackground": "#ff000040",
+		"minimapGutter.addedBackground": "#00ff00",
+		"minimapGutter.modifiedBackground": "#0000ff",
+		"minimapGutter.deletedBackground": "#ff0000",
 		"minimap.errorHighlight": "#ff6c6cc0",
 		"minimap.warningHighlight": "#ff7958c0",
+		"minimap.infoHighlight": "#ffff00c0",
+		
 
 		"notificationCenterHeader.background": "#1f1f1f",
 		"notificationCenterHeader.foreground": "#cccccc",
