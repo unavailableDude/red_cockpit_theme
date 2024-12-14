@@ -193,8 +193,14 @@
 		"pickerGroup.border": "#3c3c3c",
 		"ports.iconRunningProcessForeground": "#369432",
 		"progressBar.background": "#0078d4",
-		"quickInput.background": "#222222",
-		"quickInput.foreground": "#cccccc",
+		
+		//@note quick input
+		"quickInput.background": "#180000",
+		"quickInput.foreground": "#bbbbbb",
+		"quickInputTitle.background": "#ff0000",
+		"quickInputList.focusBackground": "#a00000",
+		"quickInputList.focusForeground": "#eeeeee",
+		"quickInputList.focusIconForeground": "#eeeeee",
 
 		"settings.dropdownBackground": "#313131",
 		"settings.dropdownBorder": "#3c3c3c",
@@ -390,7 +396,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#00ff00"
+				"foreground": "#ff0000"
 			}
 		},
 		{
