@@ -1,4 +1,5 @@
-//wtf green: "#00ff00"
+//the "00ff00" is used  to indicate unknown/unconfigured element colors
+//is called wtf green
 
 {
 	"$schema": "vscode://schemas/color-theme",
@@ -299,11 +300,13 @@
 		"debugConsole.sourceForeground": "#d4d4d4",
 		"debugConsoleInputIcon.foreground": "#cccccc",
 
-		"textLink.activeForeground": "#00ff00",
-		"textLink.foreground": "#00ff00",
-		"textPreformat.background": "#00ff00",
-		"textPreformat.foreground": "#00ff00",
-		"textSeparator.foreground": "#00ff00",
+		//appears on the welcome page as the options and appears in new files
+		"textLink.activeForeground": "#ff0000",
+		"textLink.foreground": "#ff000098",
+		
+		"textPreformat.background": "#0000ff",
+		"textPreformat.foreground": "#0000ff",
+		"textSeparator.foreground": "#0000ff",
 		
 		//@note title bar
 		"titleBar.activeBackground": "#120000",
