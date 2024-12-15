@@ -216,17 +216,28 @@
 		"quickInputList.focusForeground": "#eeeeee",
 		"quickInputList.focusIconForeground": "#eeeeee",
 
-		"settings.dropdownBackground": "#313131",
-		"settings.dropdownBorder": "#3c3c3c",
-		"settings.headerForeground": "#ffffff",
-		"settings.modifiedItemIndicator": "#bb800966",
-        //"selection.background": "#ff0000",
+		//@note settings
+		"settings.headerForeground": "#f0efef",
+		"settings.dropdownForeground": "#cccccc",
+		"settings.dropdownBackground": "#280000",
+		"settings.dropdownBorder": "#ff0000a0",
+		"settings.modifiedItemIndicator": "#ff0000",
+		"settings.numberInputForeground": "#dddddd",
+		"settings.numberInputBackground": "#280000",
+		"settings.numberInputBorder": "#ff0000a0",
+		"settings.textInputForeground": "#dddddd",
+		"settings.textInputBackground": "#280000",
+		"settings.textInputBorder": "#ff0000a0",
+		"settings.checkboxForeground": "#cccccc",
+		"settings.checkboxBackground": "#250000",
+		"settings.checkboxBorder": "#ff00003a",
 
 		"search.resultsInfoForeground": "#cccccc",
 
-		"searchEditor.findMatchBackground": "#00ff00",
-		"searchEditor.findMatchBorder": "#00ff00",
-		"searchEditor.textInputBorder": "#00ff00",
+		//@note search editor
+		"searchEditor.findMatchBackground": "#ff000040",
+		"searchEditor.findMatchBorder": "#ff000080",
+		"searchEditor.textInputBorder": "#ff0000c0",
 		
 		//@note side bar
 		"sideBar.background": "#080000",
@@ -288,11 +299,11 @@
 		"debugConsole.sourceForeground": "#d4d4d4",
 		"debugConsoleInputIcon.foreground": "#cccccc",
 
-		"textLink.activeForeground": "#4daafc",
-		"textLink.foreground": "#4daafc",
-		"textPreformat.background": "#3c3c3c",
-		"textPreformat.foreground": "#d0d0d0",
-		"textSeparator.foreground": "#21262d",
+		"textLink.activeForeground": "#00ff00",
+		"textLink.foreground": "#00ff00",
+		"textPreformat.background": "#00ff00",
+		"textPreformat.foreground": "#00ff00",
+		"textSeparator.foreground": "#00ff00",
 		
 		//@note title bar
 		"titleBar.activeBackground": "#120000",
