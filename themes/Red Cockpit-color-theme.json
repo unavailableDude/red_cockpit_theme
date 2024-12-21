@@ -1,3 +1,5 @@
+//@note ref
+//colors reference: https://code.visualstudio.com/api/references/theme-color
 //the "00ff00" is used  to indicate unknown/unconfigured element colors
 //is called wtf green
 
@@ -59,7 +61,7 @@
 		"editor.compositionBorder": "#0f0",
 		"editor.focusedStackFrameHighlightBackground": "#0f0",
 		"editor.foldBackground": "#20303040",
-		"editorGutter.foldingControlForeground": "#ff0000",
+		"editorGutter.foldingControlForeground": "#0f0",
 		"editorGutter.commentGlyphForeground": "#00ff00",
 		"editorGutter.commentRangeForeground": "#00ff00",
 		//maybe about the lines on the left that show changes
@@ -77,8 +79,26 @@
 		"editorLineNumber.activeForeground": "#f00000",
 		"editorLineNumber.foreground": "#730000",
 		"editorLineNumber.dimmedForeground": "#be000050",
-		"editorOverviewRuler.border": "#300000",
 		
+		//@note ruler
+		"editorOverviewRuler.background": "#00000000",
+		"editorOverviewRuler.border": "#ff000040",
+		"editorOverviewRuler.findMatchForeground": "#ff000080",
+		"editorOverviewRuler.rangeHighlightForeground": "#ff000080",
+		"editorOverviewRuler.selectionHighlightForeground": "#ff000080",
+		"editorOverviewRuler.wordHighlightForeground": "#ff000080",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#ff000080",
+		"editorOverviewRuler.wordHighlightTextForeground": "#ff000080",
+		"editorOverviewRuler.modifiedForeground": "#ff0000",
+		"editorOverviewRuler.addedForeground": "#ff0000",
+		"editorOverviewRuler.deletedForeground": "#ff0000",
+		"editorOverviewRuler.errorForeground": "#ff0000",
+		"editorOverviewRuler.warningForeground": "#ff0000",
+		"editorOverviewRuler.infoForeground": "#ff0000",
+		"editorOverviewRuler.bracketMatchForeground": "#ff0000",
+		"editorOverviewRuler.inlineChatInserted": "#ff0000",
+		"editorOverviewRuler.inlineChatRemoved": "#ff0000",
+
 		"editorCursor.foreground": "#ff0000",
 		"editorCursor.background": "#ff000080",
 		"editorMultiCursor.primary.foreground": "#ff0000",
@@ -103,7 +123,7 @@
 		"editor.rangeHighlightBackground": "#ff000040",
 		"editor.rangeHighlightBorder": "#ff000080",
 
-		"editorLink.activeForeground": "#f00000",
+		"editorLink.activeForeground": "#f00",
 
 		"editor.symbolHighlightBackground": "#ff000040",
 		"editor.symbolHighlightBorder": "#ff000080",
@@ -144,15 +164,74 @@
 		"focusBorder": "#cf0000",
 		"foreground": "#c20000",
 		"icon.foreground": "#d60000",
+		
+		//@note input
+		//like things in input boxes
+		"input.foreground": "#cccccc",
 		"input.background": "#40000020",
 		"input.border": "#800000",
-		"input.foreground": "#cccccc",
-		"input.placeholderForeground": "#989898",
-		"inputOption.activeBackground": "#2489db82",
-		"inputOption.activeBorder": "#2488db",
+		"input.placeholderForeground": "#909090",
+
+		"inputOption.activeBackground": "#480000",
+		"inputOption.activeForeground": "#ff0000",
+		"inputOption.hoverBackground": "#400000",
+		"inputOption.activeBorder": "#d00000",
+
+		"inputValidation.errorBackground": "#200000",
+		"inputValidation.errorForeground": "#cccccc",
+		"inputValidation.errorBorder": "#d00000",
+		"inputValidation.warningBackground": "#200000",
+		"inputValidation.warningForeground": "#cccccc",
+		"inputValidation.warningBorder": "#c00000",
+		"inputValidation.infoBackground": "#200000",
+		"inputValidation.infoForeground": "#cccccc",
+		"inputValidation.infoBorder": "#b00000",
+		
 		"keybindingLabel.foreground": "#cccccc",
-		"list.activeSelectionIconForeground": "#ffffff",
-		"list.dropBackground": "#383b3d",
+		
+		//@note list
+		"list.activeSelectionBackground": "#800000",
+		"list.activeSelectionForeground": "#dedede",
+		"list.activeSelectionIconForeground": "#dedede",
+		//"list.activeSelectionIconBackground": "#ff0000",
+		
+		"list.dropBackground": "#00ff00",
+		
+		"list.focusBackground": "#900000",
+		"list.focusForeground": "#bbbbbb",
+		"list.focusHighlightForeground": "#eeeeee",
+		"list.focusOutline": "#ff0000",
+		"list.focusAndSelectionOutline": "#e00000",
+		
+		"list.highlightForeground": "#00ff00",
+		
+		"list.hoverBackground": "#680000",
+		"list.hoverForeground": "#dddddd",
+		
+		"list.inactiveSelectionBackground": "#600000",
+		"list.inactiveSelectionForeground": "#cccccc",
+		"list.inactiveSelectionIconForeground": "#cccccc",
+		"list.inactiveFocusBackground": "#600000",
+		"list.inactiveFocusOutline": "#a00000",
+		
+		"list.invalidItemForeground": "#00ff00",
+		"list.errorForeground": "#ff8080",
+		"list.warningForeground": "#dada20",
+		
+		"listFilterWidget.background": "#00ff00",
+		"listFilterWidget.outline": "#00ff00",
+		"listFilterWidget.noMatchesOutline": "#00ff00",
+		"listFilterWidget.shadow": "#00ff00",
+		"list.filterMatchBackground": "#00ff00",
+		"list.filterMatchBorder": "#00ff00",
+		
+		"list.deemphasizedForeground": "#00ff00",
+		"list.dropBetweenBackground": "#00ff00",
+		"tree.indentGuidesStroke": "#a00000",
+		"tree.inactiveIndentGuidesStroke": "#700000",
+		"tree.tableColumnsBorder": "#00ff00",
+		"tree.tableOddRowsBackground": "#00ff00",
+	
 		
 		"interactive.activeCodeBorder": "#00ff00",
 		"interactive.inactiveCodeBorder": "#00ff00",
@@ -207,7 +286,7 @@
 
 		"pickerGroup.border": "#3c3c3c",
 		"ports.iconRunningProcessForeground": "#369432",
-		"progressBar.background": "#0078d4",
+		"progressBar.background": "#d00000",
 		
 		//@note quick input
 		"quickInput.background": "#180000",
@@ -216,6 +295,12 @@
 		"quickInputList.focusBackground": "#a00000",
 		"quickInputList.focusForeground": "#eeeeee",
 		"quickInputList.focusIconForeground": "#eeeeee",
+
+		//@note scrollbar
+		"scrollbar.shadow": "#100000",
+		"scrollbarSlider.activeBackground": "#a00000",
+		"scrollbarSlider.background": "#ff000040",
+		"scrollbarSlider.hoverBackground": "#c00000",
 
 		//@note settings
 		"settings.headerForeground": "#f0efef",
