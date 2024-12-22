@@ -51,6 +51,8 @@
 		"dropdown.foreground": "#cccccc",
 		"dropdown.listBackground": "#1f1f1f",
 
+		//help me
+
 		//@note editor
 		"editor.background": "#101212",
 		"editor.foreground": "#cccccccc",
@@ -61,13 +63,14 @@
 		"editor.compositionBorder": "#0f0",
 		"editor.focusedStackFrameHighlightBackground": "#0f0",
 		"editor.foldBackground": "#20303040",
-		"editorGutter.foldingControlForeground": "#0f0",
-		"editorGutter.commentGlyphForeground": "#00ff00",
-		"editorGutter.commentRangeForeground": "#00ff00",
+		"editorGutter.foldingControlForeground": "#d00000",
+		"editorGutter.commentGlyphForeground": "#0000ff",
+		//like the icons in the diff editor gutter
+		"editorGutter.commentRangeForeground": "#800000",
 		//maybe about the lines on the left that show changes
-		"editorGutter.addedBackground": "#00ff00",
-		"editorGutter.deletedBackground": "#ff0000",
-		"editorGutter.modifiedBackground": "#0000ff",
+		"editorGutter.addedBackground": "#00d040",
+		"editorGutter.deletedBackground": "#d00000",
+		"editorGutter.modifiedBackground": "#0040d0",
 
 		//groups of editors means when opening multiple editors side by side,
 		//each editor will be in a group
@@ -89,9 +92,9 @@
 		"editorOverviewRuler.wordHighlightForeground": "#ff000080",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#ff000080",
 		"editorOverviewRuler.wordHighlightTextForeground": "#ff000080",
-		"editorOverviewRuler.modifiedForeground": "#ff0000",
-		"editorOverviewRuler.addedForeground": "#ff0000",
-		"editorOverviewRuler.deletedForeground": "#ff0000",
+		"editorOverviewRuler.modifiedForeground": "#0040d0",
+		"editorOverviewRuler.addedForeground": "#00d040",
+		"editorOverviewRuler.deletedForeground": "#d00000",
 		"editorOverviewRuler.errorForeground": "#ff0000",
 		"editorOverviewRuler.warningForeground": "#ff0000",
 		"editorOverviewRuler.infoForeground": "#ff0000",
@@ -138,32 +141,31 @@
 		"editorCodeLens.foreground": "#ff0000",
 
 		//@note diff editor
-		"diffEditor.insertedTextBackground": "#00ff0080",
-		//"diffEditor.insertedTextBorder": "#ffffff60",
-		"diffEditor.removedTextBackground": "#00ff0080",
-		"diffEditor.removedTextBorder": "#00ff0080",
-		"diffEditor.insertedLineBackground": "#00ff0080",
-		"diffEditor.removedLineBackground": "#00ff0080",
-		"diffEditor.border": "#00ff00",
-		"diffEditor.diagonalFill": "#00ff00",
-		"diffEditorGutter.insertedLineBackground": "#00ff0080",
-		"diffEditorGutter.removedLineBackground": "#00ff0080",
-		"diffEditorOverview.insertedForeground":"#00ff00",
-		"diffEditorOverview.removedForeground": "#00ff00",
-		"diffEditor.unchangedRegionBackground": "#00ff00",
-		"diffEditor.unchangedRegionForeground": "#00ff00",
-		"diffEditor.unchangedRegionShadow": "#00ff00",
-		"diffEditor.unchangedCodeBackground": "#00ff00",
-		"diffEditor.move.border": "#00ff00",
-		"diffEditor.moveActive.border": "#00ff00",
-		"multiDiffEditor.headerBackground": "#00ff00",
-		"multiDiffEditor.background": "#00ff00",
-		"multiDiffEditor.border": "#00ff00",
+		"diffEditor.insertedTextBackground": "#00d02048",
+		"diffEditor.removedTextBackground": "#d0004048",
+		"diffEditor.removedTextBorder": "#ff0000c0",
+		"diffEditor.insertedLineBackground": "#00d02020",
+		"diffEditor.removedLineBackground": "#d0004020",
+		"diffEditor.border": "#ff000080",
+		"diffEditor.diagonalFill": "#006000",
+		"diffEditorGutter.insertedLineBackground": "#00d04040",
+		"diffEditorGutter.removedLineBackground": "#d0004040",
+		"diffEditorOverview.insertedForeground":"#00d04080",
+		"diffEditorOverview.removedForeground": "#d0004080",
+		"diffEditor.unchangedRegionBackground": "#0000ff",
+		"diffEditor.unchangedRegionForeground": "#0000ff",
+		"diffEditor.unchangedRegionShadow": "#0000ff",
+		"diffEditor.unchangedCodeBackground": "#0000ff",
+		"diffEditor.move.border": "#0000ff",
+		"diffEditor.moveActive.border": "#0000ff",
+		"multiDiffEditor.headerBackground": "#0000ff",
+		"multiDiffEditor.background": "#0000ff",
+		"multiDiffEditor.border": "#0000ff",
 
 		"errorForeground": "#f85149",
 		"focusBorder": "#cf0000",
 		"foreground": "#c20000",
-		"icon.foreground": "#d60000",
+		"icon.foreground": "#d80000",
 		
 		//@note input
 		//like things in input boxes
@@ -195,15 +197,16 @@
 		"list.activeSelectionIconForeground": "#dedede",
 		//"list.activeSelectionIconBackground": "#ff0000",
 		
-		"list.dropBackground": "#00ff00",
+		"list.dropBackground": "#004040",
 		
-		"list.focusBackground": "#900000",
+		"list.focusBackground": "#800000",
 		"list.focusForeground": "#bbbbbb",
 		"list.focusHighlightForeground": "#eeeeee",
 		"list.focusOutline": "#ff0000",
 		"list.focusAndSelectionOutline": "#e00000",
 		
-		"list.highlightForeground": "#00ff00",
+		//like the list of the intellisense
+		"list.highlightForeground": "#d00000",
 		
 		"list.hoverBackground": "#680000",
 		"list.hoverForeground": "#dddddd",
@@ -251,12 +254,12 @@
 		"minimapSlider.background": "#f0000032",
 		"minimapSlider.hoverBackground": "#ff000032",
 		"minimapSlider.activeBackground": "#ba000040",
-		"minimapGutter.addedBackground": "#00ff00",
-		"minimapGutter.modifiedBackground": "#0000ff",
-		"minimapGutter.deletedBackground": "#ff0000",
+		"minimapGutter.addedBackground": "#00d040",
+		"minimapGutter.modifiedBackground": "#0040d0",
+		"minimapGutter.deletedBackground": "#d00000",
 		"minimap.errorHighlight": "#ff6c6cc0",
-		"minimap.warningHighlight": "#ff7958c0",
-		"minimap.infoHighlight": "#ffff00c0",
+		"minimap.warningHighlight": "#ffb180c0",
+		"minimap.infoHighlight": "#a6f040c0",
 		
 
 		"notificationCenterHeader.background": "#1f1f1f",
@@ -389,9 +392,9 @@
 		"textLink.activeForeground": "#ff0000",
 		"textLink.foreground": "#ff000098",
 		
-		"textPreformat.background": "#0000ff",
-		"textPreformat.foreground": "#0000ff",
-		"textSeparator.foreground": "#0000ff",
+		"textPreformat.background": "#400000",
+		"textPreformat.foreground": "#cccccc",
+		"textSeparator.foreground": "#00ff00",
 		
 		//@note title bar
 		"titleBar.activeBackground": "#120000",
@@ -400,7 +403,9 @@
 		"titleBar.inactiveBackground": "#0f0000",
 		"titleBar.inactiveForeground": "#ff0000a0",
 
-		"welcomePage.progress.foreground": "#0078d4",
+		"welcomePage.progress.foreground": "#ff0000",
+		"welcomePage.background": "#0a0808",
+		"welcomePage.tileBorder": "#ff0000",
 		"welcomePage.tileBackground": "#2b2b2b",
 		
 		"widget.border": "#fb0000",

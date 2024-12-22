@@ -1,21 +1,24 @@
 {
-  "name": "redcockpittheme",
-  "displayName": "RedCockpitTheme",
-  "description": "",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.95.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Red Cockpit",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Red Cockpit-color-theme.json"
-      }
-    ]
-  }
+	"name": "redcockpittheme",
+	"displayName": "RedCockpitTheme",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.95.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Red Cockpit",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Red Cockpit-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 92519
+	}
 }
