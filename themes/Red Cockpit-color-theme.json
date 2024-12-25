@@ -1,7 +1,7 @@
 //@note ref
 //colors reference: https://code.visualstudio.com/api/references/theme-color
-//the "00ff00" is used  to indicate unknown/unconfigured element colors
-//is called wtf green
+//the "00ff00" or "0000ff" is used  to indicate unknown/unconfigured element colors
+//is called wtf green/blue, currenlty there are 19 green and 8 blue
 
 {
 	"$schema": "vscode://schemas/color-theme",
@@ -54,11 +54,12 @@
 		//help me
 
 		//@note editor
-		"editor.background": "#101212",
+		"editor.background": "#141818",
 		"editor.foreground": "#cccccccc",
 		"editor.findMatchBackground": "#9e6a03",
 		"editor.lineHighlightBackground": "#00ff00",
 		"editor.lineHighlightBorder": "#00ff00",
+		"editor.hoverHighlightBackground": "#ff000040",
 		"editorPane.background": "#200000",
 		"editor.compositionBorder": "#0f0",
 		"editor.focusedStackFrameHighlightBackground": "#0f0",
@@ -116,8 +117,6 @@
 		"editor.selectionHighlightBorder": "#ff000080",
 		
 		"editorWidget.background": "#160000",
-
-		"editor.hoverHighlightBackground": "#ff000040",
 		//"editorWatermark.foreground": "#00ff00",
 
 		"editorUnicodeHighlight.border": "#00ff00",
@@ -232,8 +231,8 @@
 		"list.dropBetweenBackground": "#00ff00",
 		"tree.indentGuidesStroke": "#a00000",
 		"tree.inactiveIndentGuidesStroke": "#700000",
-		"tree.tableColumnsBorder": "#00ff00",
-		"tree.tableOddRowsBackground": "#00ff00",
+		"tree.tableColumnsBorder": "#800000",
+		"tree.tableOddRowsBackground": "#200000",
 	
 		
 		"interactive.activeCodeBorder": "#00ff00",
@@ -413,6 +412,12 @@
         "window.activeBorder": "#9b0000",
         "window.inactiveBorder": "#780000"
 	},
+	
+	"editor.semanticTokenColorCustomizations": {
+    	"[Rouge]": {
+        	"enabled": true
+    	}
+	},
 	//@note TOKENS--------
 	"tokenColors": [
 		{
@@ -451,9 +456,10 @@
 			}
 		},
 		{
+			//null/true/false
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#e06060"
 			}
 		},
 		{
@@ -465,7 +471,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#ababab"
+				"foreground": "#e06060"
 			}
 		},
 		{
