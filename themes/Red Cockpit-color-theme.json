@@ -1,7 +1,7 @@
 //@note ref
 //colors reference: https://code.visualstudio.com/api/references/theme-color
 //the "00ff00" or "0000ff" is used  to indicate unknown/unconfigured element colors
-//is called wtf green/blue, currenlty there are 19 green and 8 blue
+//is called wtf green/blue, currenlty there are 19 green and 6 blue
 
 {
 	"$schema": "vscode://schemas/color-theme",
@@ -56,9 +56,9 @@
 		//@note editor
 		"editor.background": "#141818",
 		"editor.foreground": "#cccccccc",
-		"editor.findMatchBackground": "#9e6a03",
-		"editor.lineHighlightBackground": "#00ff00",
-		"editor.lineHighlightBorder": "#00ff00",
+		"editor.findMatchBackground": "#ff000040",
+		"editor.lineHighlightBackground": "#0f0",
+		"editor.lineHighlightBorder": "#0f0",
 		"editor.hoverHighlightBackground": "#ff000040",
 		"editorPane.background": "#200000",
 		"editor.compositionBorder": "#0f0",
@@ -78,9 +78,10 @@
 		"editorGroup.border": "#ff0000a0",
 		"editorGroupHeader.tabsBackground": "#100000",
 		"editorGroupHeader.tabsBorder": "#ff000060",
-		"editorIndentGuide.activeBackground1": "#707070",
-		"editorIndentGuide.background1": "#404040",
-		"editorLineNumber.activeForeground": "#f00000",
+		"editorIndentGuide.background1": "#304040c0",
+		"editorIndentGuide.activeBackground1": "#607080a0",
+		//"editorIndentGuide.background2": "#0f0",
+		"editorLineNumber.activeForeground": "#f00000e0",
 		"editorLineNumber.foreground": "#730000",
 		"editorLineNumber.dimmedForeground": "#be000050",
 		
@@ -116,7 +117,7 @@
 		"editor.selectionHighlightBackground": "#ff000090",
 		"editor.selectionHighlightBorder": "#ff000080",
 		
-		"editorWidget.background": "#160000",
+		"editorWidget.background": "#200000",
 		//"editorWatermark.foreground": "#00ff00",
 
 		"editorUnicodeHighlight.border": "#00ff00",
@@ -141,12 +142,12 @@
 
 		//@note diff editor
 		"diffEditor.insertedTextBackground": "#00d02048",
-		"diffEditor.removedTextBackground": "#d0004048",
-		"diffEditor.removedTextBorder": "#ff0000c0",
+		"diffEditor.removedTextBackground": "#e0800020",
+		"diffEditor.removedTextBorder": "#ff000008",
 		"diffEditor.insertedLineBackground": "#00d02020",
-		"diffEditor.removedLineBackground": "#d0004020",
-		"diffEditor.border": "#ff000080",
-		"diffEditor.diagonalFill": "#006000",
+		"diffEditor.removedLineBackground": "#d0004018",
+		"diffEditor.border": "#ff000060",
+		"diffEditor.diagonalFill": "#00600080",
 		"diffEditorGutter.insertedLineBackground": "#00d04040",
 		"diffEditorGutter.removedLineBackground": "#d0004040",
 		"diffEditorOverview.insertedForeground":"#00d04080",
@@ -154,12 +155,12 @@
 		"diffEditor.unchangedRegionBackground": "#0000ff",
 		"diffEditor.unchangedRegionForeground": "#0000ff",
 		"diffEditor.unchangedRegionShadow": "#0000ff",
-		"diffEditor.unchangedCodeBackground": "#0000ff",
+		"diffEditor.unchangedCodeBackground": "#002044",
 		"diffEditor.move.border": "#0000ff",
 		"diffEditor.moveActive.border": "#0000ff",
-		"multiDiffEditor.headerBackground": "#0000ff",
-		"multiDiffEditor.background": "#0000ff",
-		"multiDiffEditor.border": "#0000ff",
+		"multiDiffEditor.headerBackground": "#300000",
+		"multiDiffEditor.background": "#400000",
+		"multiDiffEditor.border": "#c00020",
 
 		"errorForeground": "#f85149",
 		"focusBorder": "#cf0000",
@@ -269,12 +270,18 @@
 
 		//@note panels,
 		//the panels are the things on the bottom (terminal/output/debug/console)
-		"panel.background": "#0a0000",
+		"panel.background": "#0b0b0b",
 		"panel.border": "#a00000",
 		"panelInput.border": "#f00000",
 		"panelTitle.activeBorder": "#ff0000",
 		"panelTitle.activeForeground": "#d0d0d0",
 		"panelTitle.inactiveForeground": "#808080",
+		"panelSection.border": "#ff000080",
+		"panelSection.dropBackground": "#ff000080",
+		"panelSectionHeader.background": "#ff000032",
+		"panelSectionHeader.border": "#ff000060",
+		"panelSectionHeader.foreground": "#bbb",
+
 
 		//@note peek view
 		"peekViewEditor.background": "#181414",
@@ -305,20 +312,27 @@
 		"scrollbarSlider.hoverBackground": "#c00000",
 
 		//@note settings
-		"settings.headerForeground": "#f0efef",
+		"settings.headerForeground": "#f0f0f0e0",
 		"settings.dropdownForeground": "#cccccc",
-		"settings.dropdownBackground": "#280000",
-		"settings.dropdownBorder": "#ff0000a0",
-		"settings.modifiedItemIndicator": "#ff0000",
+		"settings.dropdownBackground": "#300000",
+		"settings.dropdownBorder": "#c00000",
+		"settings.modifiedItemIndicator": "#308080",
 		"settings.numberInputForeground": "#dddddd",
-		"settings.numberInputBackground": "#280000",
-		"settings.numberInputBorder": "#ff0000a0",
+		"settings.numberInputBackground": "#300000",
+		"settings.numberInputBorder": "#c00000",
 		"settings.textInputForeground": "#dddddd",
-		"settings.textInputBackground": "#280000",
-		"settings.textInputBorder": "#ff0000a0",
-		"settings.checkboxForeground": "#cccccc",
-		"settings.checkboxBackground": "#250000",
-		"settings.checkboxBorder": "#ff00003a",
+		"settings.textInputBackground": "#300000",
+		"settings.textInputBorder": "#c00000",
+		"settings.checkboxForeground": "#dddddd",
+		"settings.checkboxBackground": "#400000",
+		"settings.checkboxBorder": "#c00000",
+		"settings.focusedRowBackground": "#ffffff18",
+		"settings.focusedRowBorder": "#ffffff20",
+		"settings.dropdownListBorder": "#c00000",
+		"settings.rowHoverBackground": "#ff000018",
+		"settings.headerBorder": "#ff000080",
+		"settings.settingsHeaderHoverForeground": "#f0f0f0e0",
+		"settings.sashBorder": "#ff0000",
 
 		"search.resultsInfoForeground": "#cccccc",
 
@@ -328,13 +342,13 @@
 		"searchEditor.textInputBorder": "#ff0000c0",
 		
 		//@note side bar
-		"sideBar.background": "#080000",
+		"sideBar.background": "#120808",
 		"sideBar.border": "#900000",
 		"sideBar.foreground": "#c0c0c0",
-		"sideBarSectionHeader.background": "#ff000032",
-		"sideBarSectionHeader.border": "#ff000060",
-		"sideBarSectionHeader.foreground": "#cccccc",
-		"sideBarTitle.foreground": "#cb0000",
+		"sideBarSectionHeader.background": "#ff000038",
+		"sideBarSectionHeader.border": "#ff000040",
+		"sideBarSectionHeader.foreground": "#ff5050d0",
+		"sideBarTitle.foreground": "#ff0000e0",
 		"sideBarActivityBarTop.border": "#00ff00",
 
 		//@note status bar
@@ -370,13 +384,13 @@
 		"tab.unfocusedHoverBackground": "#1f1f1f",
 		
 		//@note terminal tab
-		"terminal.foreground": "#dd0000",
+		"terminal.foreground": "#b8b0b0",
 		"terminal.selectionBackground": "#ff000040",
 		"terminal.inactiveSelectionBackground": "#ff000038",
 		"terminalCursor.background": "#ff000080",
 		"terminalCursor.foreground": "#ff0000c0",
 		"terminal.tab.activeBorder": "#e50000",
-		"terminal.background": "#0a0808",
+		"terminal.background": "#120a0a",
 		"terminal.border": "#ff000080",
 
 
@@ -459,7 +473,7 @@
 			//null/true/false
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#e06060"
+				"foreground": "#af5e5e"
 			}
 		},
 		{
@@ -471,7 +485,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#e06060"
+				"foreground": "#af5e5e"
 			}
 		},
 		{
