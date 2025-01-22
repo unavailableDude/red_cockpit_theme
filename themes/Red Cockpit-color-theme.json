@@ -13,10 +13,10 @@
 		//it is the bar on the far left, containing icons
 		//for files, search, source control, etc.
 		"activityBar.activeBorder": "#ff0000",
-		"activityBar.background": "#0a0808",
-		"activityBar.border": "#900000",
-		"activityBar.foreground": "#e00000",
-		"activityBar.activeBackground": "#700000",
+		"activityBar.background": "#160a0a",
+		"activityBar.border": "#800000",
+		"activityBar.foreground": "#e04040e0",
+		"activityBar.activeBackground": "#640000",
 		"activityBar.activeFocusBorder": "#ff0000",
 		"activityBar.inactiveForeground": "#800000",
 		"activityBarBadge.background": "#d8000040",
