@@ -240,13 +240,13 @@
 		"interactive.inactiveCodeBorder": "#0f0",
 
 		//@note menus
-		"menu.background": "#181010",
+		"menu.background": "#1a1010",
 		"menu.border": "#d00000",
-		"menu.foreground": "#ff3030b0",
+		"menu.foreground": "#ff3030d0",
 		"menu.selectionBackground": "#ff000040",
-		"menu.separatorBackground": "#f0000080",
+		"menu.separatorBackground": "#f00000a0",
 		"menu.selectionBorder": "#d00000a0",
-		"menu.selectionForeground": "#dddddd",
+		"menu.selectionForeground": "#ccdddd",
 
 		//@note minimap
 		"minimap.background": "#42000018",
