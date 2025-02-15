@@ -189,8 +189,6 @@
 		"inputValidation.infoForeground": "#cccccc",
 		"inputValidation.infoBorder": "#b00000",
 		
-		"keybindingLabel.foreground": "#cccccc",
-		
 		//@note list
 		"list.activeSelectionBackground": "#800000",
 		"list.activeSelectionForeground": "#dedede",
@@ -208,17 +206,17 @@
 		//like the list of the intellisense
 		"list.highlightForeground": "#d00000",
 		
-		"list.hoverBackground": "#680000",
+		"list.hoverBackground": "#640000",
 		"list.hoverForeground": "#dddddd",
 		
 		"list.inactiveSelectionBackground": "#600000",
 		"list.inactiveSelectionForeground": "#cccccc",
 		"list.inactiveSelectionIconForeground": "#cccccc",
-		"list.inactiveFocusBackground": "#600000",
+		"list.inactiveFocusBackground": "#500000",
 		"list.inactiveFocusOutline": "#a00000",
 		
 		"list.invalidItemForeground": "#0f0",
-		"list.errorForeground": "#ff8080",
+		"list.errorForeground": "#ff8070",
 		"list.warningForeground": "#dada20",
 		
 		"listFilterWidget.background": "#0f0",
@@ -262,13 +260,19 @@
 		"minimap.errorHighlight": "#ff6c6cc0",
 		"minimap.warningHighlight": "#ffb180c0",
 		"minimap.infoHighlight": "#a6f040c0",
-		
 
-		"notificationCenterHeader.background": "#1f1f1f",
-		"notificationCenterHeader.foreground": "#cccccc",
-		"notifications.background": "#1f1f1f",
-		"notifications.border": "#2b2b2b",
+		//@note notifications
+		"notificationCenter.border": "#f00000",
+		"notificationCenterHeader.foreground": "#ee3010ff",
+		"notificationCenterHeader.background": "#400000",
+		"notificationToast.border": "#d00",
 		"notifications.foreground": "#cccccc",
+		"notifications.background": "#300000",
+		"notifications.border": "#f00",
+		"notificationLink.foreground": "#ff2020",
+		"notificationsErrorIcon.foreground": "#ff6c6cc0",
+		"notificationsWarningIcon.foreground": "#ffb180c0",
+		"notificationsInfoIcon.foreground": "#a6f040c0",
 
 		//@note panels,
 		//the panels are the things on the bottom (terminal/output/debug/console)
@@ -287,12 +291,14 @@
 		"panelTitle.border": "#80000000",
 
 		//@note peek view
-		"peekViewEditor.background": "#181414",
+		"peekViewEditor.background": "#121818",
 		"peekViewEditor.matchHighlightBackground": "#483000",
+		"peekViewEditorGutter.background": "#181818",
+		"peekViewEditorStickyScroll.background": "#181818",
 		"peekViewResult.background": "#181414",
 		"peekViewResult.matchHighlightBackground": "#480000",
-		"peekView.border": "#e00000",
-		"peekViewTitle.background": "#382020",
+		"peekView.border": "#c01010",
+		"peekViewTitle.background": "#502020",
 		"peekViewTitleDescription.foreground": "#cccccc",
 		"peekViewTitleLabel.foreground": "#cccccc",
 
@@ -423,6 +429,11 @@
 		"titleBar.inactiveForeground": "#ff0000b0",
 		"titleBar.border": "#ff000040",
 
+		//@note banners
+		"banner.background": "#0f0",
+		"banner.foreground": "#0f0",
+		"banner.iconForeground": "#0f0",
+
 		"welcomePage.progress.foreground": "#ff0000",
 		"welcomePage.background": "#0a0808",
 		"welcomePage.tileBorder": "#ff0000",
@@ -431,7 +442,28 @@
 		"widget.border": "#c00000",
         "widget.shadow": "#5a000055",
         "window.activeBorder": "#9b0000",
-        "window.inactiveBorder": "#780000"
+        "window.inactiveBorder": "#780000",
+
+		//@note keybindings
+		"keybindingLabel.background": "#500000",
+		"keybindingLabel.foreground": "#ff0000",
+		"keybindingLabel.border": "#c00000",
+		"keybindingLabel.bottomBorder": "#f00000",
+		
+		"keybindingTable.headerBackground": "#600000",
+
+		//@note git colors
+		"gitDecoration.addedResourceForeground": "#90ff90",
+		"gitDecoration.modifiedResourceForeground": "#60a0ff",
+		"gitDecoration.deletedResourceForeground": "#ff4040",
+		"gitDecoration.renamedResourceForeground": "#00d0d0",
+		"gitDecoration.stageModifiedResourceForeground": "#0040d0",
+		"gitDecoration.stageDeletedResourceForeground": "#d00000",
+		"gitDecoration.untrackedResourceForeground": "#00c0d0",
+		"gitDecoration.ignoredResourceForeground": "#909090",
+		"gitDecoration.conflictingResourceForeground": "#d00000",
+		"gitDecoration.submoduleResourceForeground": "#d00000",
+		"git.blame.editorDecorationForeground": "#ff0000",
 	},
 	
 	"editor.semanticTokenColorCustomizations": {
