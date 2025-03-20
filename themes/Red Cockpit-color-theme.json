@@ -54,17 +54,17 @@
 		//help me
 
 		//@note editor
-		"editor.background": "#141818",
+		"editor.background": "#161a1a",
 		"editor.foreground": "#cccccccc",
 		"editor.findMatchBackground": "#ff000040",
 		"editor.lineHighlightBackground": "#0f0",
 		"editor.lineHighlightBorder": "#0f0",
-		"editor.hoverHighlightBackground": "#ff000040",
+		"editor.hoverHighlightBackground": "#ff000050",
 		"editorPane.background": "#200000",
 		"editor.compositionBorder": "#0f0",
 		"editor.focusedStackFrameHighlightBackground": "#0f0",
-		"editor.foldBackground": "#20303040",
-		"editorGutter.foldingControlForeground": "#d00000",
+		"editor.foldBackground": "#20303060",
+		"editorGutter.foldingControlForeground": "#f00",
 		"editorGutter.commentGlyphForeground": "#00f",
 		//like the icons in the diff editor gutter
 		"editorGutter.commentRangeForeground": "#800000",
@@ -244,7 +244,7 @@
 		"menu.selectionBackground": "#ff000040",
 		"menu.separatorBackground": "#f00000a0",
 		"menu.selectionBorder": "#d00000a0",
-		"menu.selectionForeground": "#ccdddd",
+		"menu.selectionForeground": "#eee",
 
 		//@note minimap
 		"minimap.background": "#42000018",
