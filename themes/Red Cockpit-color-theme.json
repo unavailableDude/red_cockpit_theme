@@ -1,14 +1,12 @@
 //@note ref
 //colors reference: https://code.visualstudio.com/api/references/theme-color
 //the "0f0" or "00f" is used  to indicate unknown/unconfigured element colors
-//is called wtf green/blue, currenlty there are 19 green and 6 blue
-
+//is called wtf green/blue, currenlty there are 20 green and 6 blue
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
 		"actionBar.toggledBackground": "#384938",
-
 		//@note activity bar
 		//it is the bar on the far left, containing icons
 		//for files, search, source control, etc.
@@ -21,10 +19,8 @@
 		"activityBar.inactiveForeground": "#800000",
 		"activityBarBadge.background": "#d8000040",
 		"activityBarBadge.foreground": "#f8f8f8",
-		
 		"badge.background": "#616161",
 		"badge.foreground": "#f8f8f8",
-		
 		//@note buttons
 		"button.background": "#700000",
 		"button.border": "#e00000",
@@ -33,7 +29,6 @@
 		"button.secondaryBackground": "#bc0000c0",
 		"button.secondaryForeground": "#eeeeee",
 		"button.secondaryHoverBackground": "#3c3c3c",
-
 		"chat.requestBorder": "#ff000060",
 		"chat.requestBackground": "#0a0808",
 		"chat.slashCommandBackground": "#ff000040",
@@ -41,24 +36,21 @@
 		"chat.avatarBackground": "#ff000040",
 		"chat.avatarForeground": "#ff0000c0",
 		"chat.editedFileForeground": "#ff000080",
-
 		"checkbox.background": "#250000",
 		"checkbox.border": "#ff00003a",
 		"debugToolBar.background": "#181818",
-		//"descriptionForeground": "#ff0000",
+		"descriptionForeground": "#ff0000",
 		"dropdown.background": "#313131",
 		"dropdown.border": "#3c3c3c",
 		"dropdown.foreground": "#cccccc",
 		"dropdown.listBackground": "#1f1f1f",
-
 		//help me
-
 		//@note editor
 		"editor.background": "#161a1a",
 		"editor.foreground": "#cccccccc",
 		"editor.findMatchBackground": "#ff000040",
-		"editor.lineHighlightBackground": "#ff000030",
-		"editor.lineHighlightBorder": "#ff00000c",
+		"editor.lineHighlightBackground": "#ff000040",
+		"editor.lineHighlightBorder": "#ff000010",
 		"editor.hoverHighlightBackground": "#ff000050",
 		"editorPane.background": "#200000",
 		"editor.compositionBorder": "#0f0",
@@ -72,7 +64,6 @@
 		"editorGutter.addedBackground": "#00d040",
 		"editorGutter.deletedBackground": "#d00000",
 		"editorGutter.modifiedBackground": "#0040d0",
-
 		//groups of editors means when opening multiple editors side by side,
 		//each editor will be in a group
 		"editorGroup.border": "#ff0000a0",
@@ -84,7 +75,6 @@
 		"editorLineNumber.activeForeground": "#f00000e0",
 		"editorLineNumber.foreground": "#730000",
 		"editorLineNumber.dimmedForeground": "#be000050",
-		
 		//@note ruler
 		"editorOverviewRuler.background": "#00000000",
 		"editorOverviewRuler.border": "#ff000040",
@@ -103,43 +93,31 @@
 		"editorOverviewRuler.bracketMatchForeground": "#ff0000",
 		"editorOverviewRuler.inlineChatInserted": "#ff0000",
 		"editorOverviewRuler.inlineChatRemoved": "#ff0000",
-
 		"editorCursor.foreground": "#ff0000",
 		"editorCursor.background": "#ff000080",
 		"editorMultiCursor.primary.foreground": "#ff0000",
 		"editorMultiCursor.primary.background": "#ff000080",
 		"editorMultiCursor.secondary.foreground": "#b00000",
 		"editorMultiCursor.secondary.background": "#b0000080",
-
-		"editor.selectionBackground": "#ff000040",
+		"editor.selectionBackground": "#ff000060",
 		"editor.selectionForeground": "#fffffffc",
 		"editor.inactiveSelectionBackground": "#ff000038",
 		"editor.selectionHighlightBackground": "#ff000090",
 		"editor.selectionHighlightBorder": "#ff000080",
-		
 		"editorWidget.background": "#200000",
 		//"editorWatermark.foreground": "#0f0",
-
 		"editorUnicodeHighlight.border": "#0f0",
 		"editorUnicodeHighlight.background": "#0f0",
-
 		"editor.rangeHighlightBackground": "#ff000040",
 		"editor.rangeHighlightBorder": "#ff000080",
-
 		"editorLink.activeForeground": "#f00",
-
 		"editor.symbolHighlightBackground": "#ff000040",
 		"editor.symbolHighlightBorder": "#ff000080",
-
 		"editorWhitespace.foreground": "#ff0000c0",
-
 		//"editor.guides.indentation": true,
 		//"editor.guides.highlightActiveIndentation": true
-
 		"editorRuler.foreground": "#ff0000",
-
 		"editorCodeLens.foreground": "#ff0000",
-
 		//@note diff editor
 		"diffEditor.insertedTextBackground": "#00d02048",
 		"diffEditor.removedTextBackground": "#e0800020",
@@ -150,7 +128,7 @@
 		"diffEditor.diagonalFill": "#00600080",
 		"diffEditorGutter.insertedLineBackground": "#00d04040",
 		"diffEditorGutter.removedLineBackground": "#d0004040",
-		"diffEditorOverview.insertedForeground":"#00d04080",
+		"diffEditorOverview.insertedForeground": "#00d04080",
 		"diffEditorOverview.removedForeground": "#d0004080",
 		"diffEditor.unchangedRegionBackground": "#00f",
 		"diffEditor.unchangedRegionForeground": "#00f",
@@ -161,24 +139,21 @@
 		"multiDiffEditor.headerBackground": "#300000",
 		"multiDiffEditor.background": "#400000",
 		"multiDiffEditor.border": "#c00020",
-
 		"errorForeground": "#f85149",
 		"focusBorder": "#cf0000",
-		"foreground": "#c20000",
+		//foreground of a lot of text
+		"foreground": "#ff0000ef",
 		"icon.foreground": "#d80000",
-		
 		//@note input
 		//like things in input boxes
 		"input.foreground": "#cccccc",
 		"input.background": "#40000020",
 		"input.border": "#800000",
 		"input.placeholderForeground": "#909090",
-
 		"inputOption.activeBackground": "#480000",
 		"inputOption.activeForeground": "#ff0000",
 		"inputOption.hoverBackground": "#400000",
 		"inputOption.activeBorder": "#d00000",
-
 		"inputValidation.errorBackground": "#200000",
 		"inputValidation.errorForeground": "#cccccc",
 		"inputValidation.errorBorder": "#d00000",
@@ -188,55 +163,43 @@
 		"inputValidation.infoBackground": "#200000",
 		"inputValidation.infoForeground": "#cccccc",
 		"inputValidation.infoBorder": "#b00000",
-		
 		//@note list
 		"list.activeSelectionBackground": "#800000",
 		"list.activeSelectionForeground": "#dedede",
 		"list.activeSelectionIconForeground": "#dedede",
 		//"list.activeSelectionIconBackground": "#ff0000",
-		
 		"list.dropBackground": "#004040",
-		
 		"list.focusBackground": "#800000",
 		"list.focusForeground": "#bbbbbb",
 		"list.focusHighlightForeground": "#eeeeee",
 		"list.focusOutline": "#ff0000",
 		"list.focusAndSelectionOutline": "#e00000",
-		
 		//like the list of the intellisense
 		"list.highlightForeground": "#d00000",
-		
 		"list.hoverBackground": "#640000",
 		"list.hoverForeground": "#dddddd",
-		
 		"list.inactiveSelectionBackground": "#600000",
 		"list.inactiveSelectionForeground": "#cccccc",
 		"list.inactiveSelectionIconForeground": "#cccccc",
 		"list.inactiveFocusBackground": "#500000",
 		"list.inactiveFocusOutline": "#a00000",
-		
 		"list.invalidItemForeground": "#0f0",
 		"list.errorForeground": "#ff8070",
 		"list.warningForeground": "#dada20",
-		
 		"listFilterWidget.background": "#0f0",
 		"listFilterWidget.outline": "#0f0",
 		"listFilterWidget.noMatchesOutline": "#0f0",
 		"listFilterWidget.shadow": "#0f0",
 		"list.filterMatchBackground": "#0f0",
 		"list.filterMatchBorder": "#0f0",
-		
 		"list.deemphasizedForeground": "#0f0",
 		"list.dropBetweenBackground": "#0f0",
 		"tree.indentGuidesStroke": "#a00000",
 		"tree.inactiveIndentGuidesStroke": "#700000",
 		"tree.tableColumnsBorder": "#800000",
 		"tree.tableOddRowsBackground": "#200000",
-	
-		
 		"interactive.activeCodeBorder": "#0f0",
 		"interactive.inactiveCodeBorder": "#0f0",
-
 		//@note menus
 		"menu.background": "#1a1010",
 		"menu.border": "#d00000",
@@ -245,7 +208,6 @@
 		"menu.separatorBackground": "#f00000a0",
 		"menu.selectionBorder": "#d00000a0",
 		"menu.selectionForeground": "#eee",
-
 		//@note minimap
 		"minimap.background": "#42000018",
 		"minimap.foregroundOpacity": "#000000fe",
@@ -260,7 +222,6 @@
 		"minimap.errorHighlight": "#ff6c6cc0",
 		"minimap.warningHighlight": "#ffb180c0",
 		"minimap.infoHighlight": "#a6f040c0",
-
 		//@note notifications
 		"notificationCenter.border": "#f00000",
 		"notificationCenterHeader.foreground": "#ee3010ff",
@@ -273,7 +234,6 @@
 		"notificationsErrorIcon.foreground": "#ff6c6cc0",
 		"notificationsWarningIcon.foreground": "#ffb180c0",
 		"notificationsInfoIcon.foreground": "#a6f040c0",
-
 		//@note panels,
 		//the panels are the things on the bottom (terminal/output/debug/console)
 		"panel.background": "#101010",
@@ -289,7 +249,6 @@
 		"panelSectionHeader.foreground": "#bbb",
 		"panel.dropBorder": "#ff0000",
 		"panelTitle.border": "#80000000",
-
 		//@note peek view
 		"peekViewEditor.background": "#121818",
 		"peekViewEditor.matchHighlightBackground": "#483000",
@@ -301,11 +260,9 @@
 		"peekViewTitle.background": "#502020",
 		"peekViewTitleDescription.foreground": "#cccccc",
 		"peekViewTitleLabel.foreground": "#cccccc",
-
 		"pickerGroup.border": "#3c3c3c",
 		"ports.iconRunningProcessForeground": "#369432",
 		"progressBar.background": "#d00000",
-		
 		//@note quick input
 		"quickInput.background": "#180000",
 		"quickInput.foreground": "#bbbbbb",
@@ -313,13 +270,11 @@
 		"quickInputList.focusBackground": "#a00000",
 		"quickInputList.focusForeground": "#eeeeee",
 		"quickInputList.focusIconForeground": "#eeeeee",
-
 		//@note scrollbar
 		"scrollbar.shadow": "#100000",
 		"scrollbarSlider.activeBackground": "#a00000",
 		"scrollbarSlider.background": "#ff000040",
 		"scrollbarSlider.hoverBackground": "#c00000",
-
 		//@note settings
 		"settings.headerForeground": "#f0f0f0e0",
 		"settings.dropdownForeground": "#cccccc",
@@ -342,14 +297,11 @@
 		"settings.headerBorder": "#ff000080",
 		"settings.settingsHeaderHoverForeground": "#f0f0f0e0",
 		"settings.sashBorder": "#ff0000",
-
 		"search.resultsInfoForeground": "#cccccc",
-
 		//@note search editor
 		"searchEditor.findMatchBackground": "#ff000040",
 		"searchEditor.findMatchBorder": "#ff000080",
 		"searchEditor.textInputBorder": "#ff0000c0",
-		
 		//@note side bar
 		"sideBar.background": "#120808",
 		"sideBar.border": "#900000",
@@ -359,7 +311,6 @@
 		"sideBarSectionHeader.foreground": "#ff5050d0",
 		"sideBarTitle.foreground": "#ff0000e0",
 		"sideBarActivityBarTop.border": "#0f0",
-
 		//@note status bar
 		"statusBar.background": "#680000",
 		"statusBar.foreground": "#cccccc",
@@ -373,7 +324,6 @@
 		"statusBarItem.prominentBackground": "#ff0000",
 		"statusBarItem.remoteBackground": "#ff0000",
 		"statusBarItem.remoteForeground": "#ffffff",
-		
 		//@note tabs
 		"tab.activeBackground": "#780000",
 		"tab.activeBorder": "#f00000",
@@ -391,7 +341,6 @@
 		"tab.unfocusedActiveBorder": "#1f1f1f",
 		"tab.unfocusedActiveBorderTop": "#2b2b2b",
 		"tab.unfocusedHoverBackground": "#1f1f1f",
-		
 		//@note terminal panel
 		"terminal.foreground": "#b0b0b0",
 		"terminal.selectionBackground": "#ff000040",
@@ -401,57 +350,46 @@
 		"terminal.tab.activeBorder": "#e50000",
 		"terminal.background": "#121010",
 		"terminal.border": "#ff000080",
-
 		//@note debug console panel
 		"debugConsole.errorForeground": "#f85149",
 		"debugConsole.warningForeground": "#b89500",
 		"debugConsole.infoForeground": "#75beff",
 		"debugConsole.sourceForeground": "#d4d4d4",
 		"debugConsoleInputIcon.foreground": "#cccccc",
-
 		//@note problems panel
 		"problemsErrorIcon.foreground": "#ff6c6cc0",
 		"problemsWarningIcon.foreground": "#ffb180c0",
 		"problemsInfoIcon.foreground": "#a6f040c0",
-
 		//appears on the welcome page as the options and appears in new files
-		"textLink.activeForeground": "#ff0000",
-		"textLink.foreground": "#ff000098",
-		
+		"textLink.activeForeground": "#eee",
+		"textLink.foreground": "#00dddde0",
 		"textPreformat.background": "#400000",
 		"textPreformat.foreground": "#cccccc",
 		"textSeparator.foreground": "#0f0",
-		
 		//@note title bar
 		"titleBar.activeBackground": "#200000",
 		"titleBar.inactiveBackground": "#180000",
 		"titleBar.activeForeground": "#ff0000e0",
 		"titleBar.inactiveForeground": "#ff0000b0",
 		"titleBar.border": "#ff000040",
-
 		//@note banners
 		"banner.background": "#0f0",
 		"banner.foreground": "#0f0",
 		"banner.iconForeground": "#0f0",
-
 		"welcomePage.progress.foreground": "#ff0000",
 		"welcomePage.background": "#0a0808",
 		"welcomePage.tileBorder": "#ff0000",
 		"welcomePage.tileBackground": "#2b2b2b",
-		
 		"widget.border": "#c00000",
-        "widget.shadow": "#5a000055",
-        "window.activeBorder": "#9b0000",
-        "window.inactiveBorder": "#780000",
-
+		"widget.shadow": "#5a000055",
+		"window.activeBorder": "#9b0000",
+		"window.inactiveBorder": "#780000",
 		//@note keybindings
 		"keybindingLabel.background": "#500000",
 		"keybindingLabel.foreground": "#ff0000",
 		"keybindingLabel.border": "#c00000",
 		"keybindingLabel.bottomBorder": "#f00000",
-		
 		"keybindingTable.headerBackground": "#600000",
-
 		//@note git colors
 		"gitDecoration.addedResourceForeground": "#90ff90",
 		"gitDecoration.modifiedResourceForeground": "#60a0ff",
@@ -465,11 +403,10 @@
 		"gitDecoration.submoduleResourceForeground": "#d00000",
 		"git.blame.editorDecorationForeground": "#ff0000",
 	},
-	
 	"editor.semanticTokenColorCustomizations": {
-    	"[Rouge]": {
-        	"enabled": true
-    	}
+		"[Rouge]": {
+			"enabled": true
+		}
 	},
 	//@note TOKENS--------
 	"tokenColors": [
@@ -505,7 +442,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#448b7d"		//@note comments
+				"foreground": "#448b7d" //@note comments
 			}
 		},
 		{
