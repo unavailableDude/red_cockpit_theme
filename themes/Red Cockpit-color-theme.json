@@ -46,7 +46,7 @@
 		"dropdown.listBackground": "#1f1f1f",
 		//help me
 		//@note editor
-		"editor.background": "#161a1a",
+		"editor.background": "#242424",
 		"editor.foreground": "#cccccccc",
 		"editor.findMatchBackground": "#ff000040",
 		"editor.lineHighlightBackground": "#ff000040",
@@ -114,6 +114,8 @@
 		"editor.symbolHighlightBackground": "#ff000040",
 		"editor.symbolHighlightBorder": "#ff000080",
 		"editorWhitespace.foreground": "#ff0000c0",
+		"sideBySideEditor.verticalBorder": "#0f0",
+		"sideBySideEditor.horizontalBorder": "#0f0",
 		//"editor.guides.indentation": true,
 		//"editor.guides.highlightActiveIndentation": true
 		"editorRuler.foreground": "#ff0000",
@@ -309,8 +311,10 @@
 		"sideBarSectionHeader.background": "#ff000038",
 		"sideBarSectionHeader.border": "#ff000040",
 		"sideBarSectionHeader.foreground": "#ff5050d0",
+		"sideBarTitle.border": "#ff000040",
 		"sideBarTitle.foreground": "#ff0000e0",
-		"sideBarActivityBarTop.border": "#0f0",
+		"sideBarTitle.background": "#300000",
+		"sideBarActivityBarTop.border": "#a00000",
 		//@note status bar
 		"statusBar.background": "#680000",
 		"statusBar.foreground": "#cccccc",
@@ -786,7 +790,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#dcd0aa"
 			}
 		},
 		{
@@ -866,7 +870,7 @@
 				"constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#9ad4f3" //9CDCFE
 			}
 		},
 		{
