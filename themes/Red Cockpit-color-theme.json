@@ -377,9 +377,9 @@
 		"titleBar.inactiveForeground": "#ff0000b0",
 		"titleBar.border": "#ff000040",
 		//@note banners
-		"banner.background": "#0f0",
-		"banner.foreground": "#0f0",
-		"banner.iconForeground": "#0f0",
+		"banner.background": "#280000",
+		"banner.foreground": "#ff0000c8",
+		"banner.iconForeground": "#ff0000e0",
 		"welcomePage.progress.foreground": "#ff0000",
 		"welcomePage.background": "#0a0808",
 		"welcomePage.tileBorder": "#ff0000",
