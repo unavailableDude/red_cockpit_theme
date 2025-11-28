@@ -1,7 +1,7 @@
 //@note ref
 //colors reference: https://code.visualstudio.com/api/references/theme-color
 //the "0f0" or "00f" is used  to indicate unknown/unconfigured element colors
-//is called wtf green/blue, currenlty there are 20 green and 6 blue
+//is called wtf green/blue, currenlty there are 18 green and 6 blue
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
