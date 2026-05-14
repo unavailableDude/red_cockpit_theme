@@ -1,7 +1,7 @@
 //@note ref
 //colors reference: https://code.visualstudio.com/api/references/theme-color
 //the "0f0" or "00f" is used  to indicate unknown/unconfigured element colors
-//is called wtf green/blue, currenlty there are 19 green and 6 blue
+//is called wtf green/blue, currenlty there are 18 green and 6 blue
 
 {
 	"$schema": "vscode://schemas/color-theme",
@@ -226,8 +226,8 @@
 		"list.filterMatchBackground": "#0f0",
 		"list.filterMatchBorder": "#0f0",
 		
-		"list.deemphasizedForeground": "#0f0",
-		"list.dropBetweenBackground": "#0f0",
+		"list.deemphasizedForeground": "#c00000",
+		"list.dropBetweenBackground": "#e00000",
 		"tree.indentGuidesStroke": "#a00000",
 		"tree.inactiveIndentGuidesStroke": "#700000",
 		"tree.tableColumnsBorder": "#800000",
