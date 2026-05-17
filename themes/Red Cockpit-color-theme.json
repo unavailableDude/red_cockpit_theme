@@ -1,7 +1,7 @@
 //@note ref
 //colors reference: https://code.visualstudio.com/api/references/theme-color
 //the "0f0" or "00f" is used  to indicate unknown/unconfigured element colors
-//is called wtf green/blue, currenlty there are 18 green and 6 blue
+//is called wtf green/blue, currenlty there are 16 green and 6 blue
 
 {
 	"$schema": "vscode://schemas/color-theme",
@@ -107,8 +107,10 @@
 		"editor.selectionHighlightBorder": "#ff000080",
 		"editorWidget.background": "#200000",
 		//"editorWatermark.foreground": "#0f0",
-		"editorUnicodeHighlight.border": "#0f0",
-		"editorUnicodeHighlight.background": "#0f0",
+
+		"editorUnicodeHighlight.border": "#ff000060",
+		"editorUnicodeHighlight.background": "#ff000040",
+
 		"editor.rangeHighlightBackground": "#ff000040",
 		"editor.rangeHighlightBorder": "#ff000080",
 		"editorLink.activeForeground": "#f00",
